@@ -21,9 +21,10 @@ export default function ContactPage() {
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <p className="mb-1 font-bold text-text-dark">Contact Person</p>
+                    <p className="mb-1 font-bold text-text-dark">Address</p>
+                    <p className="leading-relaxed text-text-body">{contact.address.full}</p>
+                    <p className="mt-2 font-bold text-text-dark">Contact Person</p>
                     <p className="leading-relaxed text-text-body">{contact.person}</p>
-                    <p className="mt-1 text-sm text-text-body">{contact.address.full}</p>
                   </div>
                 </div>
 

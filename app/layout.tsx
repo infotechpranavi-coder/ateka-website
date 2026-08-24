@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   description:
     'Ateka Logistics is a professionally managed transportation and logistics company delivering reliable, safe, and efficient road freight solutions across India.',
   generator: 'v0.app',
+  icons: {
+    icon: [{ url: '/logooo/ateka_-_logo-removebg-preview.png', type: 'image/png' }],
+    apple: [{ url: '/logooo/ateka_-_logo-removebg-preview.png', type: 'image/png' }],
+    shortcut: '/logooo/ateka_-_logo-removebg-preview.png',
+  },
 }
 
 export const viewport: Viewport = {

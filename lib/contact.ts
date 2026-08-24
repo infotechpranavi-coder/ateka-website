@@ -6,14 +6,16 @@ export const contact = {
   primaryPhone: { display: '77770 62143', tel: '+917777062143' },
   email: 'javedahmed@atekalogistics.com',
   address: {
-    full: 'Pan-India road freight operations',
-    short: 'Road freight across India',
-    city: 'India',
-    pincode: '',
+    full: 'Dishma Bldg, Office no - 8, 3rd Floor, Kalamboli – 410218',
+    short: 'Dishma Bldg, Office no - 8, 3rd Floor, Kalamboli – 410218',
+    city: 'Kalamboli',
+    pincode: '410218',
   },
   location: null,
-  mapEmbedUrl: '',
-  mapDirectionsUrl: '',
+  mapEmbedUrl:
+    'https://maps.google.com/maps?q=Dishma+Bldg,+Office+no+8,+3rd+Floor,+Kalamboli+410218&z=16&hl=en&output=embed',
+  mapDirectionsUrl:
+    'https://www.google.com/maps/search/?api=1&query=Dishma+Bldg,+Office+no+8,+3rd+Floor,+Kalamboli+410218',
   hours: 'Dedicated operations support',
   whatsapp: {
     number: '917777062143',
