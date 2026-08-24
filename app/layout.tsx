@@ -6,17 +6,10 @@ import Footer from '@/components/Footer'
 import FloatingActions from '@/components/FloatingActions'
 
 export const metadata: Metadata = {
-  title: 'Anshika Cool Container Services | Cold Logistics',
-  description: 'Professional refrigerated container transport and cold logistics solutions across India. Reliable, temperature-controlled shipping for perishables, pharmaceuticals, and more.',
+  title: 'Ateka Logistics | Transport & Logistics Service Provider',
+  description:
+    'Ateka Logistics is a professionally managed transportation and logistics company delivering reliable, safe, and efficient road freight solutions across India.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/logo/anshika%20logictics.png',
-        type: 'image/png',
-      },
-    ],
-  },
 }
 
 export const viewport: Viewport = {

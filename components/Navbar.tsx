@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import BrandMark from '@/components/BrandMark';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -52,27 +52,16 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 z-50 w-full transition-all duration-500 ${
+        className={`fixed top-0 z-50 w-full pt-1.5 transition-all duration-500 sm:pt-2 ${
           overHero ? 'bg-transparent' : 'bg-white/95 shadow-sm backdrop-blur-md'
         }`}
       >
         <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-6">
           <div className="relative flex items-center justify-between py-2.5 md:py-2">
             {/* Logo */}
-            <Link href="/" className="relative z-10 -ml-1 flex shrink-0 items-center overflow-visible">
-              <Image
-                src="/logo/anshika%20logictics.png"
-                alt="Anshika Logistics"
-                width={320}
-                height={320}
-                className={`-my-1 h-[4.75rem] w-auto origin-left object-contain object-left transition-all duration-500 sm:h-[5.25rem] md:-my-3 md:h-[6.75rem] ${
-                  overHero
-                    ? 'brightness-0 invert drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]'
-                    : ''
-                }`}
-                priority
-              />
-            </Link>
+            <div className="relative z-10 -ml-1 flex shrink-0 items-center overflow-visible">
+              <BrandMark variant={overHero ? 'light' : 'dark'} />
+            </div>
 
             {/* Center tab nav — desktop */}
             <div
@@ -185,7 +174,7 @@ export default function Navbar() {
         )}
       </AnimatePresence>
 
-      {!isHome && <div className="h-[5.5rem] md:h-[6.25rem]" />}
+      {!isHome && <div className="h-[6.25rem] md:h-[7rem]" />}
     </>
   );
 }

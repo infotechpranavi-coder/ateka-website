@@ -15,14 +15,15 @@ export default function ContactPage() {
             <div>
               <h2 className="mb-6 text-2xl font-bold text-text-dark md:mb-8 md:text-3xl">Get in Touch</h2>
               <div className="space-y-6">
-                {/* Address */}
+                {/* Contact person */}
                 <div className="flex gap-4">
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-white">
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <p className="mb-1 font-bold text-text-dark">Address</p>
-                    <p className="leading-relaxed text-text-body">{contact.address.full}</p>
+                    <p className="mb-1 font-bold text-text-dark">Contact Person</p>
+                    <p className="leading-relaxed text-text-body">{contact.person}</p>
+                    <p className="mt-1 text-sm text-text-body">{contact.address.full}</p>
                   </div>
                 </div>
 
@@ -106,7 +107,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
+      {contact.mapEmbedUrl ? (
       <section className="bg-light-gray px-4 py-10 sm:px-6 md:py-16 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <h2 className="mb-3 text-center text-2xl font-bold text-text-dark md:text-3xl">Our Location</h2>
@@ -129,11 +130,12 @@ export default function ContactPage() {
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
-              title="Anshika Logistics office location in Purna, Bhiwandi"
+              title="Ateka Logistics"
             />
           </div>
         </div>
       </section>
+      ) : null}
     </>
   );
 }

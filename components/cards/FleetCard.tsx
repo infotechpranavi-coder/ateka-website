@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FleetProduct } from '@/lib/types';
-import { ArrowUpRight, Box, Maximize2, Thermometer } from 'lucide-react';
+import { ArrowUpRight, Box, Maximize2, Weight } from 'lucide-react';
 
 const specMeta = [
   { key: 'capacity' as const, label: 'Capacity', Icon: Box },
   { key: 'dimensions' as const, label: 'Dimensions', Icon: Maximize2 },
-  { key: 'temperature' as const, label: 'Temp. Range', Icon: Thermometer },
+  { key: 'temperature' as const, label: 'Body Type', Icon: Weight },
 ];
 
 export default function FleetCard({ id, name, image, category, specs }: FleetProduct) {

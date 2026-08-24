@@ -16,17 +16,17 @@ export default function ServicesSection() {
 
       <div className="section-container relative">
         <div className="mx-auto mb-7 max-w-2xl text-center md:mb-8">
-          <p className="section-label mb-2 justify-center">What We Offer</p>
+          <p className="section-label mb-2 justify-center text-primary-light before:bg-primary-light">What We Offer</p>
           <h2 className="text-2xl font-semibold tracking-tight text-white md:text-3xl">
             Services We Offer
           </h2>
           <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-white/65 md:text-base">
-            End-to-end cold-chain logistics across India for perishable and temperature-sensitive cargo.
+            End-to-end road freight and logistics support across India for FTL, dedicated, and express movement.
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4 xl:gap-5">
-          {services.map((service, idx) => (
+          {services.slice(0, 4).map((service, idx) => (
             <motion.article
               key={service.id}
               initial={{ opacity: 0, y: 20 }}

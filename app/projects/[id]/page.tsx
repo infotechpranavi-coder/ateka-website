@@ -57,7 +57,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
               <ul className="space-y-3 text-text-body">
                 <li className="flex items-start gap-3">
                   <CalendarDays size={18} className="text-primary mt-1 flex-shrink-0" />
-                  <span>Executed with strict delivery timelines and temperature controls.</span>
+                  <span>Executed with strict delivery timelines and professional handling.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin size={18} className="text-primary mt-1 flex-shrink-0" />

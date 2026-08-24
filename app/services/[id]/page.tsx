@@ -72,7 +72,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/[0.04]">
             <h3 className="mb-3 text-lg font-semibold text-text-dark">Need This Service?</h3>
             <p className="mb-5 text-sm text-text-body">
-              Talk to our team to plan your temperature-controlled shipment.
+              Talk to our team to plan your road freight movement.
             </p>
             <Link href="/contact" className="btn-primary block text-center">
               Enquire Now
@@ -107,7 +107,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
       footer={
         <CTABanner
           eyebrow="Service solutions"
-          heading="Need this service for your cargo? Talk to our cold-chain team today."
+          heading="Need this service for your cargo? Talk to our operations team today."
           buttonLabel="Enquire Now"
           imageSrc={getDetailCtaImage(service.id, 2)}
         />

@@ -3,10 +3,10 @@ import { Phone, Mail } from 'lucide-react';
 import { contact } from '@/lib/contact';
 
 const reasons = [
-  '15+ years of industry experience',
-  '99.8% on-time delivery rate',
-  'ISO certified operations',
-  '24/7 customer support',
+  'Reliable 27-vehicle tonnage fleet',
+  'Focus on safe, on-time deliveries',
+  'Dedicated operations coordination',
+  'Trusted by leading logistics companies',
 ];
 
 export default function PageSidebar() {

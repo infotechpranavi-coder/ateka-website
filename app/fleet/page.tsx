@@ -27,9 +27,9 @@ export default function FleetPage() {
 
       <CTABanner
         eyebrow="Fleet solutions"
-        heading="Need a custom unit or a dedicated reefer on a fixed lane? We’ll size the right vehicle."
+        heading="Need a dedicated vehicle or FTL capacity on a fixed lane? We’ll size the right truck."
         buttonLabel="Enquire Now"
-        imageSrc="/fleet/truck-04.jpg"
+        imageSrc="/images/stock/cta-truck.jpg"
       />
     </>
   );

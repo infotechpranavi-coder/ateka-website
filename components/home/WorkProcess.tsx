@@ -8,19 +8,19 @@ const steps = [
     icon: Package,
     number: '01',
     title: 'Order Placement',
-    description: 'Share shipment details, cargo type, and temperature requirements.',
+    description: 'Share shipment details, cargo type, and delivery timeline.',
   },
   {
     icon: Truck,
     number: '02',
     title: 'Pickup & Loading',
-    description: 'Our team collects and loads cargo with certified cold-chain protocols.',
+    description: 'Our team collects and loads cargo with professional handling and safety checks.',
   },
   {
     icon: BarChart3,
     number: '03',
     title: 'Live Tracking',
-    description: 'Monitor location and temperature in real time throughout transit.',
+    description: 'Track vehicle location in real time throughout transit.',
   },
   {
     icon: CheckCircle,
@@ -40,7 +40,7 @@ export default function WorkProcess() {
             How We Deliver Excellence
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-text-body md:text-base">
-            A four-step process built for reliability, transparency, and cold-chain integrity.
+            A four-step process built for reliability, transparency, and on-time handover.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function WorkProcess() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.4, delay: idx * 0.08, ease: [0.22, 1, 0.36, 1] }}
-              className="group relative overflow-hidden rounded-2xl bg-white p-5 ring-1 ring-black/[0.04] transition duration-300 hover:-translate-y-1.5 hover:bg-primary hover:shadow-[0_18px_40px_rgba(232,33,42,0.28)] hover:ring-primary"
+              className="group relative overflow-hidden rounded-2xl bg-white p-5 ring-1 ring-black/[0.04] transition duration-300 hover:-translate-y-1.5 hover:bg-primary hover:shadow-[0_18px_40px_rgba(26,86,196,0.28)] hover:ring-primary"
             >
               <div className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-primary/10 transition group-hover:bg-white/10" />
 

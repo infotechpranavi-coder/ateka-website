@@ -5,11 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #1a1a1a;
-  --primary: #E8212A;
-  --primary-dark: #c41a22;
-  --dark-navy: #1A1A2E;
-  --light-gray: #F4F5F7;
-  --surface-muted: #F6F7F9;
+  --primary: #1A56C4;
+  --primary-dark: #134091;
+  --primary-light: #4B86E0;
+  --dark-navy: #0A1628;
+  --light-gray: #F4F8FD;
+  --surface-muted: #EEF4FB;
   --text-dark: #1a1a1a;
   --text-body: #5c5c5c;
   --text-light: #9ca3af;
@@ -25,6 +26,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
   --color-dark-navy: var(--dark-navy);
   --color-light-gray: var(--light-gray);
   --color-text-dark: var(--text-dark);

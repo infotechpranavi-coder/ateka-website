@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Mail, Phone, MapPin, Linkedin, Facebook, Twitter } from 'lucide-react';
 import WorldMapOverlay from '@/components/WorldMapOverlay';
 import { contact } from '@/lib/contact';
+import BrandMark from '@/components/BrandMark';
 
 const quickLinks = [
   { label: 'Home', href: '/' },
@@ -13,11 +13,11 @@ const quickLinks = [
 ];
 
 const serviceLinks = [
-  { label: 'Reefer Transport', href: '/services/1' },
-  { label: 'Cold Storage', href: '/services/4' },
-  { label: 'Pharma Logistics', href: '/services' },
+  { label: 'FTL Transportation', href: '/services/1' },
+  { label: 'Dedicated Vehicles', href: '/services/3' },
+  { label: 'E-commerce Support', href: '/services/4' },
+  { label: 'Express Deliveries', href: '/services/6' },
   { label: 'Fleet Solutions', href: '/fleet' },
-  { label: 'Pan-India Coverage', href: '/services' },
 ];
 
 const socials = [
@@ -29,24 +29,18 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="relative z-10 overflow-hidden bg-dark-navy text-white">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#12121f] via-dark-navy to-[#1e1630]" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#061018] via-dark-navy to-[#0C2A5A]" />
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-3xl" />
       <WorldMapOverlay className="opacity-[0.22]" showMarkers centered />
 
       <div className="section-container relative py-10 pb-24 md:py-12 md:pb-12">
         <div className="mb-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="mb-4 inline-flex rounded-lg bg-white px-3 py-2">
-              <Image
-                src="/logo/anshika%20logictics.png"
-                alt="Anshika Logistics"
-                width={240}
-                height={100}
-                className="h-[4.5rem] w-auto object-contain md:h-[5.5rem]"
-              />
+            <div className="mb-4">
+              <BrandMark size="footer" variant="light" />
             </div>
             <p className="mb-5 max-w-xs text-sm leading-relaxed text-white/65">
-              Refrigerated container transport and cold-chain logistics across India.
+              Road freight transportation and logistics solutions across India.
             </p>
             <div className="flex gap-2.5">
               {socials.map(({ Icon, label }) => (
@@ -139,9 +133,9 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-2 border-t border-white/10 pt-5 text-center sm:flex-row sm:text-left">
           <p className="text-xs text-white/45">
-            &copy; {new Date().getFullYear()} Anshika Cool Container Services. All rights reserved.
+            &copy; {new Date().getFullYear()} Ateka Logistics. All rights reserved.
           </p>
-          <p className="text-xs text-white/40">Bhiwandi · Cold Chain · Pan-India Reefer Transport</p>
+          <p className="text-xs text-white/40">Pan-India · Road Freight · FTL & Dedicated Fleet</p>
         </div>
       </div>
     </footer>

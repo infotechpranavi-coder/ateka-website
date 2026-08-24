@@ -11,9 +11,10 @@ const config: Config = {
         sans: ['Barlow', 'system-ui', 'sans-serif'],
       },
       colors: {
-        primary: '#E8212A',
-        'dark-navy': '#1A1A2E',
-        'light-gray': '#F4F4F4',
+        primary: '#1A56C4',
+        'primary-light': '#4B86E0',
+        'dark-navy': '#0A1628',
+        'light-gray': '#F4F8FD',
         'dark-overlay': 'rgba(17, 17, 17, 0.55)',
         'text-body': '#555555',
         'text-dark': '#1A1A1A',

@@ -38,7 +38,7 @@ export default function FloatingActions() {
         <button
           type="button"
           onClick={() => setFormOpen(true)}
-          className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-primary text-white shadow-[0_8px_24px_rgba(232,33,42,0.35)] transition hover:scale-105 hover:bg-[var(--primary-dark)] md:h-12 md:w-12"
+          className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-primary text-white shadow-[0_8px_24px_rgba(26,86,196,0.35)] transition hover:scale-105 hover:bg-[var(--primary-dark)] md:h-12 md:w-12"
           aria-label="Open quote form"
         >
           <FabLabel>Enquire now</FabLabel>
@@ -47,7 +47,7 @@ export default function FloatingActions() {
 
         <a
           href={`tel:${contact.primaryPhone.tel}`}
-          className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-dark-navy text-white shadow-[0_8px_24px_rgba(26,26,46,0.35)] transition hover:scale-105 hover:bg-[#12121f] md:h-12 md:w-12"
+          className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-dark-navy text-white shadow-[0_8px_24px_rgba(10,22,40,0.35)] transition hover:scale-105 hover:bg-[#061018] md:h-12 md:w-12"
           aria-label={`Call +91 ${contact.primaryPhone.display}`}
         >
           <FabLabel>Call us</FabLabel>

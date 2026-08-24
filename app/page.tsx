@@ -8,6 +8,7 @@ import CTABanner from '@/components/home/CTABanner';
 import FleetProducts from '@/components/home/FleetProducts';
 import WorkProcess from '@/components/home/WorkProcess';
 import TestimonialsSection from '@/components/home/TestimonialsSection';
+import ClientsStrip from '@/components/home/ClientsStrip';
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
         <ServicesSection />
         <CategoriesWeServe />
         <CTABanner
-          eyebrow="Warehousing & dedicated units"
-          heading="Need cold storage or a dedicated reefer on a fixed lane? We’ll size the right solution."
+          eyebrow="Dedicated vehicles"
+          heading="Need dedicated vehicles or FTL capacity on a fixed lane? We’ll size the right solution."
           buttonLabel="Enquire Now"
           imageSrc="/images/stock/cta-warehouse.jpg"
         />
@@ -30,10 +31,11 @@ export default function Home() {
         <WorkProcess />
         <CTABanner
           eyebrow="Start a shipment"
-          heading="Ready to move temperature-sensitive cargo? Enquire with our dispatch team."
+          heading="Ready to move cargo by road? Enquire with our operations team."
           buttonLabel="Enquire Now"
           imageSrc="/images/stock/cta-truck.jpg"
         />
+        <ClientsStrip />
         <TestimonialsSection />
       </div>
     </div>

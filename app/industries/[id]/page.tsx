@@ -72,7 +72,7 @@ export default async function IndustryDetailPage({ params }: IndustryDetailPageP
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/[0.04]">
             <h3 className="mb-3 text-lg font-semibold text-text-dark">Need This Solution?</h3>
             <p className="mb-5 text-sm text-text-body">
-              Talk to our team to plan temperature-controlled movement for this industry.
+              Talk to our team to plan road freight movement for this industry.
             </p>
             <Link href="/contact" className="btn-primary block text-center">
               Enquire Now
@@ -107,7 +107,7 @@ export default async function IndustryDetailPage({ params }: IndustryDetailPageP
       footer={
         <CTABanner
           eyebrow="Industry solutions"
-          heading="Ready to move temperature-sensitive cargo for this sector? Enquire with our team."
+          heading="Ready to move cargo for this sector? Enquire with our team."
           buttonLabel="Enquire Now"
           imageSrc={getDetailCtaImage(industry.id, 4)}
         />

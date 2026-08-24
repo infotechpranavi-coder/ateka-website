@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
               What Our Clients Say
             </h2>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-text-body md:text-base">
-              Feedback from food, pharma, and QSR teams that trust our Bhiwandi cold-chain operations.
+              Feedback from logistics, express, and corporate teams that trust our road freight operations.
             </p>
             <div className="mt-6 flex items-center gap-3">
               <button

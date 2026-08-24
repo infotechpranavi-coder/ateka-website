@@ -12,7 +12,7 @@ export interface Project {
   id: string;
   title: string;
   image: string;
-  category: 'Reefer Transport' | 'Warehousing' | 'Pharma' | 'Perishables';
+  category: 'FTL Transport' | 'Express' | 'Distribution' | 'Corporate';
   description: string;
 }
 

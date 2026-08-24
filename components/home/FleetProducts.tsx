@@ -4,12 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fleetProducts } from '@/lib/data';
-import { ArrowUpRight, Box, Maximize2, Thermometer } from 'lucide-react';
+import { ArrowUpRight, Box, Maximize2, Weight } from 'lucide-react';
 
 const specMeta = [
   { key: 'capacity' as const, label: 'Capacity', Icon: Box },
   { key: 'dimensions' as const, label: 'Dimensions', Icon: Maximize2 },
-  { key: 'temperature' as const, label: 'Temp. Range', Icon: Thermometer },
+  { key: 'temperature' as const, label: 'Body Type', Icon: Weight },
 ];
 
 export default function FleetProducts() {
@@ -19,14 +19,14 @@ export default function FleetProducts() {
         <div className="mx-auto mb-10 max-w-2xl text-center">
           <p className="section-label mb-2 justify-center">Our Fleet</p>
           <h2 className="text-2xl font-semibold tracking-tight text-text-dark md:text-3xl lg:text-4xl">
-            Reefer Fleet Built for Every Route
+            Tonnage Fleet Built for Every Lane
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-text-body md:text-base">
-            Temperature-controlled units from 9 ft city reefers to 24 ft highway trucks.
+            20 ft and 32 ft tonnage trucks maintained for safety, reliability, and timely deliveries.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
           {fleetProducts.map((product, idx) => (
             <motion.article
               key={product.id}

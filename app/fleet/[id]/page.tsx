@@ -6,7 +6,7 @@ import CTABanner from '@/components/home/CTABanner';
 import DetailSplitLayout from '@/components/listing/DetailSplitLayout';
 import { fleetProducts } from '@/lib/data';
 import { getDetailCtaImage } from '@/lib/cta-images';
-import { ArrowLeft, ArrowRight, Box, CheckCircle2, Maximize2, Thermometer } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Box, CheckCircle2, Maximize2, Weight } from 'lucide-react';
 
 interface FleetDetailPageProps {
   params: Promise<{
@@ -17,7 +17,7 @@ interface FleetDetailPageProps {
 const specMeta = [
   { key: 'capacity' as const, label: 'Capacity', Icon: Box },
   { key: 'dimensions' as const, label: 'Dimensions', Icon: Maximize2 },
-  { key: 'temperature' as const, label: 'Temp. Range', Icon: Thermometer },
+  { key: 'temperature' as const, label: 'Body Type', Icon: Weight },
 ];
 
 export function generateStaticParams() {
@@ -94,7 +94,7 @@ export default async function FleetDetailPage({ params }: FleetDetailPageProps) 
           <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/[0.04]">
             <h3 className="mb-3 text-lg font-semibold text-text-dark">Need This Unit?</h3>
             <p className="mb-5 text-sm text-text-body">
-              Talk to our fleet team to book this vehicle or size a dedicated reefer for your lane.
+              Talk to our fleet team to book this vehicle or size a dedicated unit for your lane.
             </p>
             <Link href="/contact" className="btn-primary block text-center">
               Enquire Now
@@ -129,7 +129,7 @@ export default async function FleetDetailPage({ params }: FleetDetailPageProps) 
       footer={
         <CTABanner
           eyebrow="Fleet solutions"
-          heading="Ready to book a reefer? Enquire with our dispatch team."
+          heading="Ready to book this vehicle? Enquire with our operations team."
           buttonLabel="Enquire Now"
           imageSrc={getDetailCtaImage(product.id, 0)}
         />

@@ -111,33 +111,36 @@ export default function ContactForm() {
         {/* Container Type */}
         <div>
           <label htmlFor="containerType" className="block text-sm font-semibold text-text-dark mb-2">
-            Container Type
+            Vehicle Type
           </label>
           <select
             id="containerType"
             {...register('containerType')}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           >
-            <option value="">Select container type</option>
-            <option value="9ft">9 ft Reefer</option>
-            <option value="14ft">14 ft Reefer</option>
-            <option value="20ft">20 ft Reefer</option>
-            <option value="24ft">24 ft Reefer</option>
+            <option value="">Select vehicle type</option>
+            <option value="20ft">20 ft Tonnage Truck</option>
+            <option value="32ft">32 ft Tonnage Truck</option>
+            <option value="dedicated">Dedicated Vehicle</option>
           </select>
         </div>
 
-        {/* Temperature */}
         <div>
           <label htmlFor="temperature" className="block text-sm font-semibold text-text-dark mb-2">
-            Required Temperature
+            Service Required
           </label>
-          <input
+          <select
             id="temperature"
-            type="text"
             {...register('temperature')}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-            placeholder="-20°C to +20°C"
-          />
+          >
+            <option value="">Select service</option>
+            <option value="ftl">Full Truck Load (FTL)</option>
+            <option value="dedicated">Dedicated Vehicle</option>
+            <option value="express">Time-Critical / Express</option>
+            <option value="distribution">Distribution / Secondary</option>
+            <option value="custom">Customized Solution</option>
+          </select>
         </div>
 
         {/* Cargo Type */}
@@ -151,10 +154,11 @@ export default function ContactForm() {
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
           >
             <option value="">Select cargo type</option>
-            <option value="perishable">Perishable Goods</option>
-            <option value="pharma">Pharmaceutical Products</option>
-            <option value="dairy">Dairy Products</option>
-            <option value="chemical">Chemicals</option>
+            <option value="ecommerce">E-commerce</option>
+            <option value="express">Express parcels</option>
+            <option value="retail">Retail</option>
+            <option value="manufacturing">Manufacturing</option>
+            <option value="general">General cargo</option>
             <option value="other">Other</option>
           </select>
         </div>

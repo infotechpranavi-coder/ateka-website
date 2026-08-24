@@ -7,30 +7,30 @@ import WorldMapOverlay from '@/components/WorldMapOverlay';
 const stats = [
   {
     icon: Clock,
-    value: '15+',
-    label: 'Years Experience',
+    value: '27',
+    label: 'Vehicle Fleet',
   },
   {
     icon: MapPinned,
-    value: '500+',
-    label: 'Cities Covered',
+    value: 'Pan-India',
+    label: 'Road Coverage',
   },
   {
     icon: ShieldCheck,
-    value: '99.8%',
-    label: 'On-time Delivery',
+    value: 'On-time',
+    label: 'Safe Deliveries',
   },
   {
     icon: Headphones,
-    value: '24/7',
-    label: 'Operations Support',
+    value: 'Dedicated',
+    label: 'Operations Team',
   },
 ];
 
 export default function StatsSection() {
   return (
     <section className="relative overflow-hidden bg-dark-navy">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#12121f] via-dark-navy to-[#1e1630]" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#061018] via-dark-navy to-[#0C2A5A]" />
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-primary/15 blur-3xl" />
       <WorldMapOverlay className="opacity-[0.22]" showMarkers />
 

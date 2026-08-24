@@ -9,11 +9,11 @@ import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'fra
 const slides = [
   {
     id: 1,
-    eyebrow: 'Cold Chain · Nationwide',
-    title: 'Refrigerated',
-    accent: 'Container Transport',
+    eyebrow: 'Road Freight · Nationwide',
+    title: 'Reliable',
+    accent: 'FTL Transportation',
     description:
-      'Temperature-controlled logistics built for perishables, pharma, and time-critical cargo across India.',
+      'Full truck load movement with consistent vehicle availability for logistics companies and corporate shippers across India.',
     image: '/banners/refie 3.jpg',
     imagePosition: '52% center',
     imageClassName: 'scale-105',
@@ -21,29 +21,29 @@ const slides = [
   },
   {
     id: 2,
-    eyebrow: 'Compliant · Monitored',
-    title: 'Pharmaceutical',
-    accent: 'Cold Logistics',
+    eyebrow: 'Dedicated · On Time',
+    title: 'Dedicated',
+    accent: 'Vehicle Services',
     description:
-      'Certified handling with live temperature logs and secure transit for sensitive medical shipments.',
-    image: '/banners/pharma cold 2.png',
+      'Assigned trucks and professional drivers for recurring lanes that need predictable capacity and clear coordination.',
+    image: '/images/stock/hero-truck.jpg',
   },
   {
     id: 3,
-    eyebrow: 'Storage · Distribution',
-    title: 'Cold Storage',
-    accent: 'Solutions',
+    eyebrow: 'Express · E-commerce',
+    title: 'Express',
+    accent: 'Road Support',
     description:
-      'Modern warehousing for perishable goods—precise climate control from dock to delivery.',
-    image: '/banners/refieg cold storage.jpg',
+      'Time-critical and secondary transportation for express networks and e-commerce distribution across India.',
+    image: '/images/stock/cta-truck.jpg',
     flipHorizontal: true,
   },
 ];
 
 const stats = [
-  { value: '15+', label: 'Years' },
-  { value: '500+', label: 'Clients' },
-  { value: '10k+', label: 'Shipments' },
+  { value: '27', label: 'Vehicles' },
+  { value: 'Pan-India', label: 'Coverage' },
+  { value: 'FTL', label: '& Dedicated' },
 ];
 
 export default function HeroSlider() {

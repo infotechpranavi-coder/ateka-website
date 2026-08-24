@@ -4,133 +4,173 @@ export const services: Service[] = [
   {
     id: '1',
     number: '01',
-    icon: 'Globe',
-    title: 'Nationwide Cold Chain Transport',
+    icon: 'Truck',
+    title: 'Full Truck Load (FTL) Transportation',
     description:
-      'Reliable refrigerated movement from metro hubs to Tier-2 and Tier-3 towns across India.',
-    features: ['Pan-India network', 'Metro to tier-3 reach', 'Scheduled dispatch'],
+      'Dedicated full-truck movement for high-volume cargo with consistent vehicle availability across India.',
+    features: ['Dedicated FTL capacity', 'Highway and regional lanes', 'Reliable vehicle availability'],
     image: '/images/services/pan-india.jpg',
   },
   {
     id: '2',
     number: '02',
-    icon: 'Thermometer',
-    title: 'Precision Refrigeration Systems',
+    icon: 'Globe',
+    title: 'Road Freight Transportation',
     description:
-      'Modern cooling units and temperature controls configured for cargo of every scale and sensitivity.',
-    features: ['Live temp monitoring', 'Calibrated units', 'Compliance-ready logs'],
-    image: '/banners/pharma cold 2.png',
+      'Safe, efficient road freight solutions tailored for logistics companies, express networks, and corporate shippers.',
+    features: ['Pan-India road coverage', 'Scheduled and ad-hoc dispatch', 'Professional operations team'],
+    image: '/images/stock/cta-truck.jpg',
   },
   {
     id: '3',
     number: '03',
-    icon: 'Truck',
-    title: 'Flexible Fleet Sizes',
+    icon: 'Warehouse',
+    title: 'Dedicated Vehicle Services',
     description:
-      'Choose from 9 ft, 14 ft, 20 ft, and 24 ft reefer vehicles to suit your load and lane.',
-    features: ['Multiple vehicle sizes', 'Right-fit capacity', 'Urban & highway routes'],
-    image: '/fleet/truck-09.jpg',
+      'Assigned vehicles and drivers for customers who need predictable capacity on fixed or recurring lanes.',
+    features: ['Reserved vehicle allocation', 'Familiar driver assignment', 'Lane-specific planning'],
+    image: '/images/stock/hero-truck.jpg',
   },
   {
     id: '4',
     number: '04',
-    icon: 'Warehouse',
-    title: 'Cold Storage & Warehousing',
+    icon: 'Package',
+    title: 'E-commerce Logistics Support',
     description:
-      'Secure cold warehousing with organised inventory handling and dependable distribution support.',
-    features: ['Climate-controlled bays', 'Inventory handling', 'Distribution support'],
-    image: '/categories/cold-storage-warehouse.webp',
+      'Transportation support for e-commerce and express distribution networks that depend on timely road movement.',
+    features: ['High-frequency dispatch', 'Hub-to-hub movement', 'Flexible capacity for peak loads'],
+    image: '/banners/refie 3.jpg',
+  },
+  {
+    id: '5',
+    number: '05',
+    icon: 'Building2',
+    title: 'Corporate Transportation Solutions',
+    description:
+      'Structured road transport for corporate clients with transparent coordination and consistent service quality.',
+    features: ['Account-managed operations', 'SLA-oriented planning', 'Competitive commercial terms'],
+    image: '/images/stock/hero-truck.jpg',
+  },
+  {
+    id: '6',
+    number: '06',
+    icon: 'Clock',
+    title: 'Time-Critical & Express Deliveries',
+    description:
+      'Priority road movement when deadlines are tight and cargo must reach destination without delay.',
+    features: ['Priority dispatch windows', 'Express lane planning', 'Live coordination till handover'],
+    image: '/banners/refie 3.jpg',
+  },
+  {
+    id: '7',
+    number: '07',
+    icon: 'MapPinned',
+    title: 'Distribution and Secondary Transportation',
+    description:
+      'Secondary movement from hubs and warehouses to regional destinations with dependable last-leg support.',
+    features: ['Hub-to-spoke distribution', 'Regional coverage', 'Coordinated unloading windows'],
+    image: '/images/stock/cta-warehouse.jpg',
+  },
+  {
+    id: '8',
+    number: '08',
+    icon: 'Settings',
+    title: 'Customized Logistics Solutions',
+    description:
+      'Flexible transportation plans designed around your cargo, lanes, and operating calendar.',
+    features: ['Lane design support', 'Mixed FTL and dedicated models', 'Scalable capacity'],
+    image: '/images/stock/hero-containers.jpg',
   },
 ];
 
 export const serviceCategories: ServiceCategory[] = [
   {
     id: '1',
-    title: 'Pharmaceuticals',
-    description: 'Medicines, vaccines, and healthcare products kept in spec.',
+    title: 'Logistics & Supply Chain',
+    description: 'Road freight support for 3PLs, freight forwarders, and supply-chain networks.',
     overview:
-      'GDP-aligned refrigerated transport for medicines, vaccines, biologics, and diagnostic kits. We hold validated temperature bands from pickup in Bhiwandi to handover at hospitals, distributors, and last-mile hubs across India.',
+      'Ateka Logistics partners with logistics and supply-chain companies that need dependable road capacity. We move FTL and dedicated loads with a focus on vehicle availability, safety, and on-time handover.',
     features: [
-      'Validated ranges for chilled and frozen pharma',
-      'Live temperature logs for every shipment',
-      'Chain-of-custody documentation',
-      'Dedicated handling for vaccines and biologics',
-      'Pan-India dispatch from the Bhiwandi hub',
+      'FTL and dedicated vehicle support',
+      'Consistent capacity for recurring lanes',
+      'Professional drivers and operations coordination',
+      'GPS-enabled monitoring where applicable',
+      'Transparent communication from pickup to delivery',
     ],
-    image: '/banners/pharma cold 2.png',
+    image: '/images/stock/cta-truck.jpg',
   },
   {
     id: '2',
-    title: 'QSR & Food Chains',
-    description: 'Frozen and chilled supply for restaurants and food brands.',
+    title: 'E-commerce',
+    description: 'Transportation support for e-commerce fulfilment and distribution flows.',
     overview:
-      'Scheduled reefer movement for QSR kitchens, cloud kitchens, and food brands that need frozen and chilled SKUs on time. Right-sized vehicles keep product quality intact from central kitchen or warehouse to store.',
+      'E-commerce businesses need road partners who can keep up with volume and cut-offs. We provide reliable trucking support for hub transfers, secondary movement, and peak-season capacity.',
     features: [
-      'Frozen and chilled dual-temp capability',
-      'Store-level and DC-level deliveries',
-      'Night and early-morning dispatch windows',
-      '9 ft, 14 ft, 20 ft, and 24 ft reefers for every lane',
-      '24/7 coordination with kitchen teams',
-    ],
-    image: '/categories/fast-food.jpg',
-  },
-  {
-    id: '3',
-    title: 'FMCG',
-    description: 'Fast-moving goods with steady temperature from warehouse to shelf.',
-    overview:
-      'Temperature-stable movement for dairy, beverages, confectionery, and other FMCG lines that lose value if the cold chain breaks. We plan lanes around warehouse cut-offs so product reaches distributors and retail on schedule.',
-    features: [
-      'Warehouse-to-distributor reefer lanes',
-      'High-frequency regional dispatches',
-      'Inventory-friendly loading and unloading',
-      'Humidity-aware handling for packaged foods',
-      'Coverage from metros to Tier-2 towns',
+      'High-frequency dispatch support',
+      'Hub-to-hub and secondary movement',
+      'Flexible capacity during sale periods',
+      'Time-critical delivery options',
+      'Operations team aligned to fulfilment windows',
     ],
     image: '/categories/fmcg.jpg',
   },
   {
-    id: '4',
-    title: 'Event Industries',
-    description: 'Temperature-managed logistics for exhibitions and trade shows.',
+    id: '3',
+    title: 'Express Distribution',
+    description: 'Fast, dependable road movement for express and time-bound networks.',
     overview:
-      'Time-critical cold transport for exhibitions, product launches, and trade shows. Perishable displays, sampling stock, and branded food service move on a fixed window so your stand is ready before doors open.',
+      'Express distribution networks rely on vehicles that show up on time and complete lanes safely. Ateka Logistics supports express partners with dedicated and FTL capacity built around tight schedules.',
     features: [
-      'Timed pickup and venue handover',
-      'Short-haul and intercity event lanes',
-      'Chilled holding for sampling and F&B',
-      'On-call support during show days',
-      'Return logistics after the event',
+      'Priority vehicle allocation',
+      'Time-critical and express deliveries',
+      'Experienced highway drivers',
+      'Live coordination with operations desks',
+      'Scalable fleet for network expansion',
     ],
-    image: '/images/categories/events.jpg',
+    image: '/images/stock/hero-truck.jpg',
+  },
+  {
+    id: '4',
+    title: 'Retail',
+    description: 'Store and DC replenishment with reliable secondary transportation.',
+    overview:
+      'Retail supply chains need predictable inbound movement to distribution centres and stores. We handle FTL and secondary transportation so inventory reaches the right location on schedule.',
+    features: [
+      'DC-to-store and warehouse replenishment',
+      'Scheduled retail lanes',
+      'Careful handling of mixed retail cargo',
+      'Flexible vehicle sizes for different volumes',
+      'Dependable delivery windows',
+    ],
+    image: '/categories/fast-food.jpg',
   },
   {
     id: '5',
-    title: 'Florists & Fresh Produce',
-    description: 'Gentle cold transport for flowers, plants, and fresh produce.',
+    title: 'Manufacturing',
+    description: 'Inbound and outbound road freight for plants, vendors, and warehouses.',
     overview:
-      'Gentle refrigeration for flowers, plants, fruits, and vegetables that bruise or wilt without a stable cold chain. Controlled airflow and careful stacking protect freshness from farm, mandi, or packhouse to market.',
+      'Manufacturers depend on timely movement of raw materials and finished goods. Our 20 ft and 32 ft tonnage fleet supports plant-to-warehouse, vendor, and distribution lanes with a focus on safety and reliability.',
     features: [
-      'Produce-safe temperature bands',
-      'Gentle loading to reduce bruising',
-      'Same-day and next-day city lanes',
-      'Support for florists and packhouses',
-      'Humidity-conscious reefer settings',
+      'Plant inbound and outbound FTL',
+      'Vendor-to-factory movement',
+      'Highway-ready 20 ft and 32 ft trucks',
+      'Dedicated vehicles for production calendars',
+      'Safety-first loading and transit practices',
     ],
-    image: '/categories/fresh-foods.jpg',
+    image: '/categories/cold-storage-warehouse.webp',
   },
   {
     id: '6',
-    title: 'Catering & Hospitality',
-    description: 'Chilled movement for kitchens, banquets, and hospitality.',
+    title: 'Corporate Logistics',
+    description: 'Account-managed transportation for corporate and institutional shippers.',
     overview:
-      'Chilled logistics for banquet kitchens, hotels, and large-scale catering. Prepared food, dairy, and perishable ingredients move in spec so service teams can plate on time without last-minute spoilage.',
+      'Corporate clients receive structured transportation support with clear coordination, competitive pricing, and a long-term partnership approach. We tailor FTL, dedicated, and express options to business requirements.',
     features: [
-      'Banquet and hotel kitchen deliveries',
-      'Chilled holding for prepared meals',
-      'Flexible slots for event calendars',
-      'Hygienic, food-grade vehicle interiors',
-      'Backup units for peak wedding season',
+      'Single-point operations contact',
+      'Customized lane planning',
+      'Transparent commercial terms',
+      'Consistent service quality',
+      'Capacity that scales with demand',
     ],
     image: '/categories/catering.jpg',
   },
@@ -139,170 +179,108 @@ export const serviceCategories: ServiceCategory[] = [
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'Perishable Goods Transport',
+    title: 'Pan-India FTL Movement',
     image: '/images/project-1.jpg',
-    category: 'Reefer Transport',
-    description: 'Successfully transported fresh produce across 5 states maintaining quality.',
+    category: 'FTL Transport',
+    description: 'Full-truck road freight for high-volume lanes with consistent vehicle availability.',
   },
   {
     id: '2',
-    title: 'Pharmaceutical Distribution',
+    title: 'Express Network Support',
     image: '/images/project-2.jpg',
-    category: 'Pharma',
-    description: 'Delivered sensitive pharmaceutical products with 100% compliance.',
+    category: 'Express',
+    description: 'Time-critical road movement supporting express distribution partners.',
   },
   {
     id: '3',
-    title: 'Cold Storage Facility Setup',
+    title: 'E-commerce Hub Transfers',
     image: '/images/project-3.jpg',
-    category: 'Warehousing',
-    description: 'Established 5000 sq.ft. cold storage facility in Delhi.',
+    category: 'Distribution',
+    description: 'Secondary and hub-to-hub transportation for e-commerce fulfilment flows.',
   },
   {
     id: '4',
-    title: 'Seafood Export Project',
+    title: 'Corporate Dedicated Fleet',
     image: '/images/project-4.jpg',
-    category: 'Perishables',
-    description: 'Managed logistics for seafood export to international markets.',
+    category: 'Corporate',
+    description: 'Assigned vehicles for corporate clients needing predictable daily capacity.',
   },
   {
     id: '5',
-    title: 'Vaccine Distribution Campaign',
+    title: 'Retail Distribution Lanes',
     image: '/images/project-5.jpg',
-    category: 'Pharma',
-    description: 'Coordinated vaccine transport across 10 states maintaining cold chain.',
+    category: 'Distribution',
+    description: 'Scheduled secondary transportation from DCs to retail destinations.',
   },
   {
     id: '6',
-    title: 'Food Processing Supply Chain',
+    title: 'Manufacturing Outbound Freight',
     image: '/images/project-6.jpg',
-    category: 'Reefer Transport',
-    description: 'End-to-end supply chain management for major food processor.',
-  },
-  {
-    id: '7',
-    title: 'Organ Transport Network',
-    image: '/images/project-7.jpg',
-    category: 'Perishables',
-    description: 'Emergency transport services for organ donation logistics.',
-  },
-  {
-    id: '8',
-    title: 'Dairy Products Distribution',
-    image: '/images/project-8.jpg',
-    category: 'Reefer Transport',
-    description: 'Daily distribution of dairy products to major cities.',
-  },
-  {
-    id: '9',
-    title: 'Chemical Storage Solutions',
-    image: '/images/project-9.jpg',
-    category: 'Warehousing',
-    description: 'Specialized warehouse for temperature-controlled chemical storage.',
-  },
-  {
-    id: '10',
-    title: 'Frozen Foods Export',
-    image: '/images/project-10.jpg',
-    category: 'Perishables',
-    description: 'International transport of frozen food products.',
-  },
-  {
-    id: '11',
-    title: 'Diagnostic Lab Supplies',
-    image: '/images/project-11.jpg',
-    category: 'Pharma',
-    description: 'Logistics for diagnostic kit distribution nationwide.',
-  },
-  {
-    id: '12',
-    title: 'Cocoa Bean Transport',
-    image: '/images/project-12.jpg',
-    category: 'Reefer Transport',
-    description: 'Specialized transport for premium cocoa bean distribution.',
+    category: 'FTL Transport',
+    description: 'Plant-to-warehouse FTL using 20 ft and 32 ft tonnage trucks.',
   },
 ];
 
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    slug: 'cold-chain-management-2024',
-    title: 'Cold Chain Management: Best Practices in 2024',
-    excerpt: 'Learn the latest techniques and technology for managing cold chains effectively.',
+    slug: 'ftl-road-freight-planning',
+    title: 'Planning Reliable FTL Road Freight Across India',
+    excerpt: 'How dedicated full-truck capacity, lane planning, and driver discipline keep deliveries on time.',
     content: `<h3>Introduction</h3>
-<p>Cold chain management is critical for maintaining product quality and safety. With advancements in IoT and AI, the industry has evolved significantly.</p>
-<h3>Key Technologies</h3>
-<p>Temperature sensors, GPS tracking, and automated alerts have revolutionized cold chain management. These technologies ensure real-time monitoring and quick response to issues.</p>
-<h3>Best Practices</h3>
-<p>Implementing standardized protocols, regular training, and quality checks are essential for maintaining cold chain integrity throughout the supply process.</p>`,
+<p>Full truck load transportation remains the backbone of Indian road freight. Capacity, routing, and driver readiness decide whether cargo arrives on schedule.</p>
+<h3>What Matters</h3>
+<p>Vehicle availability, well-maintained trucks, and clear pickup-to-delivery coordination reduce delays and improve customer confidence.</p>
+<h3>Ateka Approach</h3>
+<p>We combine a 27-vehicle fleet with experienced drivers and an operations team focused on safety, transparency, and timely handover.</p>`,
     image: '/images/blog-1.jpg',
     date: '2024-03-15',
     author: {
-      name: 'Rajesh Kumar',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=rajesh',
+      name: 'Operations Team',
+      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=ateka',
     },
     category: 'Logistics',
-    tags: ['Cold Chain', 'Technology', 'Best Practices'],
+    tags: ['FTL', 'Road Freight', 'Planning'],
   },
   {
     id: '2',
-    slug: 'pharmaceutical-logistics-compliance',
-    title: 'Pharmaceutical Logistics Compliance Standards',
-    excerpt: 'Understanding FDA and WHO guidelines for safe pharmaceutical transport.',
-    content: `<h3>Regulatory Framework</h3>
-<p>Pharmaceutical logistics must adhere to strict regulatory standards set by FDA, WHO, and local authorities.</p>
-<h3>Documentation Requirements</h3>
-<p>Proper temperature logs, handling certificates, and transportation records are mandatory for pharmaceutical shipments.</p>
-<h3>Quality Assurance</h3>
-<p>Regular audits and certifications ensure compliance and maintain the integrity of pharmaceutical products throughout transit.</p>`,
+    slug: 'safety-in-road-transport',
+    title: 'Safety and Operational Excellence in Road Transport',
+    excerpt: 'Why maintenance, trained drivers, and GPS monitoring matter on every lane.',
+    content: `<h3>Safety First</h3>
+<p>Road freight quality is inseparable from vehicle condition and driver professionalism.</p>
+<h3>Fleet Discipline</h3>
+<p>Regular servicing, trained drivers, and GPS-enabled monitoring where applicable help keep cargo and people safe.</p>
+<h3>Customer Value</h3>
+<p>Clients choose partners who treat every shipment as a commitment to trust, reliability, and on-time delivery.</p>`,
     image: '/images/blog-3.jpg',
     date: '2024-03-10',
     author: {
-      name: 'Dr. Priya Sharma',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=priya',
+      name: 'Fleet Team',
+      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=fleet',
     },
-    category: 'Regulations',
-    tags: ['Pharma', 'Compliance', 'Regulations'],
+    category: 'Operations',
+    tags: ['Safety', 'Fleet', 'Operations'],
   },
   {
     id: '3',
-    slug: 'sustainable-cold-logistics',
-    title: 'Sustainable Practices in Cold Logistics',
-    excerpt: 'How to reduce environmental impact while maintaining cold chain efficiency.',
-    content: `<h3>Environmental Challenges</h3>
-<p>Cold logistics contributes significantly to carbon emissions. Understanding the impact is the first step toward sustainable practices.</p>
-<h3>Green Solutions</h3>
-<p>Electric vehicles, efficient insulation, and renewable energy can reduce environmental impact significantly.</p>
-<h3>Implementation Strategy</h3>
-<p>Companies are adopting sustainable practices without compromising on quality or reliability of cold chain services.</p>`,
+    slug: 'ecommerce-road-support',
+    title: 'Road Freight Support for E-commerce and Express Networks',
+    excerpt: 'Flexible trucking capacity that keeps fulfilment and express lanes moving.',
+    content: `<h3>Network Pressure</h3>
+<p>E-commerce and express operators need road partners who can scale capacity without dropping service quality.</p>
+<h3>Right Vehicles</h3>
+<p>20 ft and 32 ft tonnage trucks cover both regional and long-haul requirements for hub transfers and secondary movement.</p>
+<h3>Partnership</h3>
+<p>Transparent communication and competitive pricing help build long-term logistics partnerships.</p>`,
     image: '/images/blog-2.jpg',
     date: '2024-03-05',
     author: {
-      name: 'Amit Verma',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=amit',
+      name: 'Customer Support',
+      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=support',
     },
-    category: 'Sustainability',
-    tags: ['Environment', 'Green', 'Sustainability'],
-  },
-  {
-    id: '4',
-    slug: 'iot-sensors-cold-chain',
-    title: 'IoT Sensors Revolutionizing Cold Chain Monitoring',
-    excerpt: 'How Internet of Things is transforming real-time temperature tracking.',
-    content: `<h3>IoT Revolution</h3>
-<p>IoT sensors provide unprecedented visibility into cold chain operations with real-time data collection and analysis.</p>
-<h3>Benefits</h3>
-<p>Real-time alerts, predictive maintenance, and data-driven insights help prevent losses and optimize operations.</p>
-<h3>Future Outlook</h3>
-<p>As IoT technology matures, integration with AI and blockchain will further enhance cold chain transparency and trust.</p>`,
-    image: '/images/blog-1.jpg',
-    date: '2024-02-28',
-    author: {
-      name: 'Neha Patel',
-      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=neha',
-    },
-    category: 'Technology',
-    tags: ['IoT', 'Technology', 'Innovation'],
+    category: 'E-commerce',
+    tags: ['E-commerce', 'Express', 'Distribution'],
   },
 ];
 
@@ -310,28 +288,28 @@ export const testimonials: Testimonial[] = [
   {
     id: '1',
     quote:
-      'Anshika’s reefer transport from Bhiwandi keeps our fresh produce within range across Maharashtra and Gujarat. Temperature-controlled dispatch and on-time delivery have cut spoilage on every lane we run.',
-    author: 'Rajesh Patel',
-    designation: 'Procurement Head',
-    company: 'GreenHarvest Foods Pvt. Ltd.',
+      'Ateka Logistics gives us consistent FTL capacity and professional coordination. Vehicles are available when we need them, and deliveries stay on schedule.',
+    author: 'Operations Lead',
+    designation: 'Logistics Partner',
+    company: 'Express Distribution Network',
     rating: 5,
   },
   {
     id: '2',
     quote:
-      'We rely on their pharmaceutical cold chain for vaccines and temperature-sensitive medicines. Live monitoring, documented logs, and pan-India reefer coverage give us compliance we can stand behind.',
-    author: 'Dr. Anjali Menon',
-    designation: 'Warehouse Manager',
-    company: 'Lifeline Pharma Distributors',
+      'Dedicated vehicle support and trained drivers have made our recurring lanes far more predictable. Communication from pickup to handover is clear and reliable.',
+    author: 'Dispatch Manager',
+    designation: 'Supply Chain',
+    company: 'Corporate Logistics Client',
     rating: 5,
   },
   {
     id: '3',
     quote:
-      'Best cold-chain logistics partner for our QSR network. Frozen and chilled loads move on 14 ft and 20 ft reefers with 24/7 support. Reliable Bhiwandi hub operations, every single week.',
-    author: 'Amit Sharma',
-    designation: 'Operations Director',
-    company: 'Metro Kitchen Supplies',
+      'For e-commerce and secondary movement, Ateka is a dependable road partner. Competitive pricing without compromising safety or service quality.',
+    author: 'Hub Manager',
+    designation: 'Distribution',
+    company: 'E-commerce Fulfilment Partner',
     rating: 5,
   },
 ];
@@ -339,82 +317,51 @@ export const testimonials: Testimonial[] = [
 export const fleetProducts: FleetProduct[] = [
   {
     id: '1',
-    name: '9 ft Reefer',
-    image: '/fleet/truck-05.jpg',
-    category: 'Compact',
+    name: '20 Feet Tonnage Truck',
+    image: '/images/stock/hero-truck.jpg',
+    category: 'Tonnage',
     description:
-      'City and last-mile reefer for small loads, samples, florists, and urgent pharma drops that need a tight turning radius.',
+      'A versatile 20 ft tonnage truck for regional and intercity FTL movement. Suited to dedicated lanes, corporate loads, and secondary distribution.',
     features: [
-      '7 CBM for time-critical small loads',
-      'Easy access on dense city routes',
-      'Precise set-points for sensitive cargo',
-      'Quick dispatch from the Bhiwandi hub',
-      'Cost-efficient for short lanes',
+      'Well-maintained and regularly serviced',
+      'Experienced, trained professional drivers',
+      'GPS-enabled monitoring where applicable',
+      'Ideal for FTL and dedicated vehicle services',
+      'Focus on safety, reliability, and timely delivery',
     ],
     specs: {
-      capacity: '7 CBM',
-      dimensions: '2.7m x 1.65m x 1.65m',
-      temperature: '-20°C to +20°C',
+      capacity: 'FTL / dedicated',
+      dimensions: '20 ft body',
+      temperature: 'Tonnage truck',
     },
   },
   {
     id: '2',
-    name: '14 ft Reefer',
-    image: '/fleet/truck-10.jpg',
-    category: 'City',
-    description:
-      'The workhorse for store and kitchen deliveries. The 14 ft reefer handles multi-stop QSR, dairy, and FMCG drops without a full truck.',
-    features: [
-      '14 CBM for mixed chilled and frozen SKUs',
-      'Multi-stop city and suburban routes',
-      'Ideal for QSR, dairy, and retail',
-      'Faster loading for daily dispatches',
-      'Backup unit during peak demand',
-    ],
-    specs: {
-      capacity: '14 CBM',
-      dimensions: '4.3m x 2.05m x 1.85m',
-      temperature: '-18°C to +8°C',
-    },
-  },
-  {
-    id: '3',
-    name: '20 ft Reefer',
-    image: '/fleet/truck-02.jpg',
-    category: 'Standard',
-    description:
-      'Our most requested unit for regional and intercity loads. The 20 ft reefer balances payload with door-to-door flexibility on highway lanes out of Bhiwandi.',
-    features: [
-      '20 CBM payload for mixed chilled and frozen cargo',
-      'Set-point control from -25°C to +25°C',
-      'GPS tracking and temperature logging',
-      'Ideal for pharma, QSR, and FMCG lanes',
-      'Highway-ready for pan-India dispatch',
-    ],
-    specs: {
-      capacity: '20 CBM',
-      dimensions: '6.1m x 2.15m x 1.95m',
-      temperature: '-25°C to +25°C',
-    },
-  },
-  {
-    id: '4',
-    name: '24 ft Reefer',
-    image: '/fleet/truck-06.jpg',
+    name: '32 Feet Tonnage Truck',
+    image: '/images/stock/cta-truck.jpg',
     category: 'Highway',
     description:
-      'High-volume reefer for bulk lanes and dedicated routes. Use it when you need extra cube without breaking temperature control.',
+      'A 32 ft tonnage truck for higher-volume highway and pan-India movement. Built for customers who need extra capacity with dependable transit.',
     features: [
-      '28 CBM capacity for full-load shipments',
-      'Stable hold for long-haul routes',
-      'Suitable for palletised warehouse cargo',
-      'Continuous refrigeration in transit',
-      'Best for high-frequency DC lanes',
+      'Higher cube for full-load shipments',
+      'Highway-ready for long-haul lanes',
+      'Professional driver assignment',
+      'Regular maintenance and safety checks',
+      'Supports e-commerce, manufacturing, and 3PL cargo',
     ],
     specs: {
-      capacity: '28 CBM',
-      dimensions: '7.3m x 2.25m x 2.05m',
-      temperature: '-25°C to +25°C',
+      capacity: 'High-volume FTL',
+      dimensions: '32 ft body',
+      temperature: 'Tonnage truck',
     },
   },
+];
+
+export const esteemedClients = [
+  'Expeditors International Pvt. Ltd.',
+  'Amazon',
+  'Blue Dart Express Limited',
+  'BLR Logistics Pvt. Ltd.',
+  'Kaba Express Pvt. Ltd.',
+  'Best Roadways Pvt. Ltd.',
 ];

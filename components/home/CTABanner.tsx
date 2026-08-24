@@ -13,7 +13,7 @@ interface CTABannerProps {
 }
 
 export default function CTABanner({
-  heading = 'Need reliable cold-chain transport? Talk to Anshika and move your cargo with confidence.',
+  heading = 'Need reliable road freight? Talk to Ateka Logistics and move your cargo with confidence.',
   imageSrc = '/images/stock/cta-warehouse.jpg',
   buttonLabel = 'Enquire Now',
   eyebrow = 'Get in touch',
@@ -24,7 +24,7 @@ export default function CTABanner({
         <div className="relative overflow-hidden rounded-2xl bg-dark-navy shadow-[0_12px_36px_rgba(26,26,46,0.18)]">
           <Image
             src={imageSrc}
-            alt="Cold-chain logistics"
+            alt="Road freight logistics"
             fill
             className="object-cover object-center md:object-right"
             sizes="(max-width: 1280px) 100vw, 1280px"
@@ -33,7 +33,7 @@ export default function CTABanner({
             className="absolute inset-0"
             style={{
               background:
-                'linear-gradient(90deg, #1A1A2E 0%, rgba(26,26,46,0.94) 48%, rgba(26,26,46,0.55) 100%)',
+                'linear-gradient(90deg, #0A1628 0%, rgba(10,22,40,0.94) 48%, rgba(10,22,40,0.5) 100%)',
             }}
           />
 

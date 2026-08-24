@@ -31,7 +31,7 @@ export default function IndustriesPage() {
 
       <CTABanner
         eyebrow="Industry solutions"
-        heading="Need a cold-chain plan for your sector? Talk to our dispatch team."
+        heading="Need a transportation plan for your sector? Talk to our operations team."
         buttonLabel="Enquire Now"
       />
     </>

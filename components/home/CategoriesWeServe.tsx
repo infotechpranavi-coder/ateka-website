@@ -16,7 +16,7 @@ export default function CategoriesWeServe() {
             Categories We Serve
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-text-body md:text-base">
-            Temperature-controlled logistics for industries that cannot afford a break in the cold chain.
+            Road freight support for logistics, e-commerce, express, retail, manufacturing, and corporate clients.
           </p>
         </div>
 

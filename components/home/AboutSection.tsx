@@ -7,9 +7,9 @@ import { ArrowUpRight } from 'lucide-react';
 import { fadeUp, slideLeft, slideRight, staggerFast, viewportOnce } from './motionVariants';
 
 const stats = [
-  { value: '15+', label: 'Years Experience' },
-  { value: '500+', label: 'Happy Clients' },
-  { value: '10k+', label: 'Shipments Done' },
+  { value: '27', label: 'Fleet Vehicles' },
+  { value: '2', label: 'Truck Categories' },
+  { value: 'Pan-India', label: 'Road Coverage' },
 ];
 
 export default function AboutSection() {
@@ -28,8 +28,8 @@ export default function AboutSection() {
               <div className="col-span-3 flex flex-col gap-3 sm:gap-4">
                 <div className="relative aspect-[16/10] overflow-hidden rounded-2xl shadow-sm">
                   <Image
-                    src="/fleet/truck-01.jpg"
-                    alt="Anshika Logistics refrigerated container"
+                    src="/images/stock/hero-truck.jpg"
+                    alt="Ateka Logistics highway truck"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 60vw, 30vw"
@@ -37,8 +37,8 @@ export default function AboutSection() {
                 </div>
                 <div className="relative aspect-[16/10] overflow-hidden rounded-2xl shadow-sm">
                   <Image
-                    src="/fleet/truck-02.jpg"
-                    alt="Anshika Logistics reefer truck"
+                    src="/images/stock/cta-truck.jpg"
+                    alt="Ateka Logistics road freight fleet"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 60vw, 30vw"
@@ -48,8 +48,8 @@ export default function AboutSection() {
 
               <div className="relative col-span-2 min-h-[220px] overflow-hidden rounded-2xl shadow-sm sm:min-h-[260px]">
                 <Image
-                  src="/fleet/truck-03.jpg"
-                  alt="Anshika Logistics Eicher reefer fleet"
+                  src="/images/stock/hero-containers.jpg"
+                  alt="Ateka Logistics container cargo"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 1024px) 40vw, 22vw"
@@ -57,12 +57,12 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="absolute left-[60%] top-1/2 z-10 w-[5.75rem] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary px-3 py-3.5 text-center text-white shadow-[0_12px_28px_rgba(220,38,38,0.35)] sm:w-[6.5rem] sm:px-3.5 sm:py-4">
-              <p className="text-2xl font-bold leading-none sm:text-[1.75rem]">15+</p>
+            <div className="absolute left-[60%] top-1/2 z-10 w-[5.75rem] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary px-3 py-3.5 text-center text-white shadow-[0_12px_28px_rgba(26,86,196,0.35)] sm:w-[6.5rem] sm:px-3.5 sm:py-4">
+              <p className="text-2xl font-bold leading-none sm:text-[1.75rem]">27</p>
               <p className="mt-1.5 text-[9px] font-semibold uppercase leading-tight tracking-[0.08em] text-white/90 sm:text-[10px]">
-                Years Of
+                Vehicle
                 <br />
-                Experience
+                Fleet
               </p>
             </div>
           </motion.div>
@@ -75,13 +75,14 @@ export default function AboutSection() {
           >
             <p className="section-label mb-2">About Us</p>
             <h2 className="mb-3 max-w-lg text-2xl font-semibold tracking-tight text-text-dark md:text-3xl lg:text-[2.05rem] lg:leading-tight">
-              Excellence in Cold Logistics
+              Road Freight You Can Trust
             </h2>
             <p className="mb-5 text-sm leading-relaxed text-text-body md:text-base">
-              Anshika Cool Container Services delivers reliable cold-chain solutions for
-              perishables, pharmaceuticals, and temperature-sensitive cargo. Our fleet,
-              certified processes, and nationwide network keep your goods safe from pickup
-              to delivery.
+              Ateka Logistics is a professionally managed transportation and logistics company
+              committed to delivering reliable, safe, and efficient road freight solutions across
+              India. With a modern fleet, experienced drivers, and a dedicated operations team, we
+              provide seamless transportation services tailored to logistics companies, express
+              networks, e-commerce businesses, and corporate clients.
             </p>
 
             <motion.div
